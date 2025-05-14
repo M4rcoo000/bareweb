@@ -1,0 +1,72 @@
+/* Colores extraídos de la paleta */
+:root {
+    --gris-suave: #acabab;
+    --beige-claro: #ede0d5;
+    --marron-suave: #a89b90;
+    --marron-oscuro: #584b3e;
+    --gris-negro: #272725;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--beige-claro);
+    color: var(--gris-negro);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--gris-suave);
+    padding: 10px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: var(--gris-negro);
+    font-weight: bold;
+  }
+  
+  .brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--gris-negro);
+    width: 765px;
+    margin: 10px 0;
+
+
+  }
+  
+  .hero {
+    position: relative;
+    text-align: center;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .shop-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--beige-claro);
+    color: var(--gris-negro);
+    padding: 10px 20px;
+    border: 2px solid var(--gris-negro);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
